@@ -7,3 +7,4 @@ values
     ('Top five songs about death: a Laura''s dad tribute list', 'Tell Laura I Love Her', 'Ray Paterson'),
     ('Top five songs about death: a Laura''s dad tribute list', 'One Step Beyond', 'Madness'),
     ('Top five songs about death: a Laura''s dad tribute list', 'Wreck of the Edmund Fitzgerald', 'Gordon Lightfoot')
+;
