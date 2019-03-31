@@ -14,7 +14,7 @@ class TopFive {
             .then((musicData) => {
                 const musicInstance = new TopFive(
                                       musicData.id,
-                                      musicData.topFiveList,
+                                      musicData.top_five_list,
                                       musicData.song,
                                       musicData.artist
                                       );
@@ -31,7 +31,7 @@ class TopFive {
                 return arrayOfMusic.map((musicData) => {
                     const musicList = new TopFive (
                                       musicData.id,
-                                      musicData.topFiveList,
+                                      musicData.top_five_list,
                                       musicData.song,
                                       musicData.artist
                                       );
