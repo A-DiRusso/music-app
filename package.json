@@ -9,6 +9,7 @@
     "db:create": "createdb music-app",
     "db:init": "psql -f schema.sql music-app && psql -f seed.sql music-app",
     "db:destroy": "dropdb music-app",
+    "db:reset": "npm run db:destroy; npm run db:create && npm run db:init",
     "test": "mocha",
     "test:watch": "mocha -w"
   },
