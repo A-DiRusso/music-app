@@ -1,0 +1,27 @@
+{
+  "name": "music-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "db:create": "createdb music-app",
+    "db:init": "psql -f schema.sql music-app && psql -f seed.sql music-app",
+    "db:destroy": "dropdb music-app",
+    "test": "mocha",
+    "test:watch": "mocha -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "pg-promise": "^8.6.4"
+  }
+}
